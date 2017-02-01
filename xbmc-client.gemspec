@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
      ".gitignore",
-     ".rvmrc",
      "Gemfile",
      "Gemfile.lock",
      "LICENSE",
