@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    xbmc-client (0.1.2)
+    xbmc-client (0.1.3)
       activesupport (>= 3.0.0)
       httparty (>= 0.6.0)
       i18n
@@ -16,15 +16,15 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     concurrent-ruby (1.0.4)
-    httparty (0.14.0)
+    httparty (0.15.6)
       multi_xml (>= 0.5.2)
-    i18n (0.8.0)
-    json (2.0.3)
-    minitest (5.10.1)
+    i18n (0.8.6)
+    json (2.1.0)
+    minitest (5.10.3)
     multi_xml (0.6.0)
     shoulda (2.10.3)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
+    thread_safe (0.3.6)
+    tzinfo (1.2.4)
       thread_safe (~> 0.1)
 
 PLATFORMS
@@ -35,4 +35,4 @@ DEPENDENCIES
   xbmc-client!
 
 BUNDLED WITH
-   1.14.3
+   1.16.0.pre.3
