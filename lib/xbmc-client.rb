@@ -2,7 +2,9 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'httparty'
 require 'ruby_ext'
 require 'active_support'
-require 'active_support/core_ext'
+require 'active_support/core_ext/object/json.rb'
+require 'active_support/core_ext/string/inflections.rb'
+require 'active_support/core_ext/hash/indifferent_access.rb'
 
 # A simple XBMC JSON RPC API Client. See README for details.
 class Xbmc
